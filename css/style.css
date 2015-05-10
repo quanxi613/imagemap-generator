@@ -1,5 +1,5 @@
 /* * * * RESET * * * */
-body,div,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+body,div,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,p,blockquote,th,td {
 	margin:0;
 	padding:0;
 	font:Arial,Helvetica,sans-serif;
@@ -8,7 +8,7 @@ table {
 	border-collapse:collapse;
 	border-spacing:0;
 }
-fieldset,img { 
+fieldset,img {
 	border:0;
 }
 address,caption,cite,code,dfn,em,strong,th,var {
@@ -154,7 +154,7 @@ p {
 #navi {
 	width: 100%;
 	position: absolute;
-	top: 150px;
+	top: -150px;
 	z-index: 40;
 }
 #navi ul {
@@ -218,7 +218,7 @@ p {
 
 body .infobox {
 	width: 510px;
-	margin: 200px auto 60px;
+	margin: 100px auto 60px;
 	box-shadow: 6px 7px 20px rgba(0, 0, 0, 0.5);
 	position: relative;
 	z-index: 20;
@@ -259,7 +259,7 @@ input, textarea, #urlMessage p {
 		#uploadUndo:hover {
 			background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjM2qefiJQAAAilJREFUOE+tUt9LU2EYNgUvuqiIiii6lKChYa1oWU70lC3HdJZLW2iaOGvJjm1uurPtuHnaaSbOmq2Gug5M6XcLUw5GEEggFYh3/QmFl951EU/vDqHMcy4M+uC5+b73+fG+31tQ8B8PSEsLv+l+lSATWMIhTc8L4RhyYAICavojMPp4VLoDMPR4cex6N0pMDdirK0Pxjp0LJGBQidSGRIQzMwp4KQP+aQbcpAT/lAR3cgId90Zh9gRw8Ew1tu8/sKhKcp4T1slBIvv/kr2pNDwkcGssCdd4CtYBHvtOVKB41+7BvBT10VFYhBHU5VohMcbLo4paqHT50DwUQ98EpZFm4JvMKEn26I5+3/L8GU8gXuFwrYUyL8ERnA9TKKm5+EtLoIguOa0H/aWry+wTCffff4DwehanWh2538k/2woLpXKz9aeGQPwIY1rreZRG9J2MyItZ6O2dqgQJQ0sbbKG7ql04bGRwus2BwWdZhIjMPpZQarHlzWBY32DD0Js58FRgpUFaaJAmGuS5Xj/ahxMKOfpWpvjzZCJCZ7688QvG9u6lMJGnv65g+ssKEvInxOc/Kv3GsrISmyOBXPTOkSS5X1ksbbRvbGSz+EAIPs9CWlpG+vO3dbJIjlESCBHZOZ5GU1BEWaN9gaDexHpOGBOoOPJqDgz9fdXNOzjbxcLQ4cTJa12rx1tuyOVNrWye8+Zp17q5qbregR9bXpDNhdW3+4rIuf9fBP4ANMs60l4mN3IAAAAASUVORK5CYII=");
 		}
-		
+
 		/* purple button */
 		#uploadUndo2 {
 			background-color: #FF00DC;
@@ -286,7 +286,7 @@ input, textarea, #urlMessage p {
 			text-align: center;
 			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7) inset;
 			text-shadow: 0 1px 0 #000;
-			
+
 			/* custom */
 			cursor: pointer;
 			width: 220px;
@@ -356,7 +356,7 @@ input, textarea, #urlMessage p {
 	#header p.author {
 		display: none;
 	}
-	
+
 /* Info-Pages */
 #infos {
 	border-top: 5px solid #563670;
@@ -393,7 +393,7 @@ input, textarea, #urlMessage p {
 	position: relative;
 	width: 100%;
 	margin: 0;
-	padding: 70px 0 100px 0;
+	padding: 10px 0 100px 0;
 	display: none;
 	z-index: 20;
 }
@@ -546,7 +546,7 @@ div.form {
 	div#clearStyleButtons div.textareaButton3 {
         width: 136px; /* 140 + 4px border*/
 	}
-	
+
 	div.form textarea {
 		width: 100%;
 		min-width: 700px;
@@ -664,7 +664,7 @@ footer {
 	width: 230px;
 	height: 50px;
 	padding: 3px 20px;
-	
+
 	background-color: #F9F9F9;
 	background-image: linear-gradient(bottom, #C3C3C3 0%, #F9F9F9 100%);
 	background-image: -o-linear-gradient(bottom, #C3C3C3 0%, #F9F9F9 100%);
@@ -679,7 +679,7 @@ footer {
 		color-stop(1, #F9F9F9)
 	);
 	background-position: center top;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
 }
 	#feedbackPopup span {
 		background: url('../images/popup_arrow.png') no-repeat right top transparent;
