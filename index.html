@@ -39,10 +39,21 @@
         <p id="uploadUndo2" class="hidden">Back to my image <i class="icon icon-back"></i></p>
         <p class="headline">输入图片地址或者将图片拖拽到输入框</p>
         <form action="#" id="linkform">
-          <input type="text" name="fileurl" value="" placeholder="http://www..." id="imageurl" class="insetEffect" />
+          <input type="text" name="fileurl" value="" placeholder="http://www..." id="imageurl" class="insetEffect" style="height: 100px;"/>
           <a href="#" class="imageurl_submit"></a>
         </form>
-        <p>选择文件之后,在图片上标记热区.工具会自动产生坐标信息<br/>
+        <p>使用方法:</p>
+        <ol class="useage">
+          <li>在输入框输入图片地址或者拖拽本地图片到输入框</li>
+          <li>等待图片加载后,鼠标移入图片区域会显示为十字架图标,依次点击热区图形的顶点,系统会自动计算区域并高亮,生成坐标代码.如需要生成矩形热区,在矩形左上角点击一下,然后在右下角点击一下即可</li>
+          <li>需要添加多个热区时,点击下方菜单中的Add Area即可从新计算热区</li>
+          <li>得到全部热区之后.下方会显示所有热区对应的area坐标代码.复制粘贴到项目源代码中即可使用</li>
+        </ol>
+        <style>
+        .useage li {
+          margin: 10px auto !important;
+        }
+        </style>
         本工具来源于: <a href="http://imagemap-generator.dariodomi.de">http://imagemap-generator.dariodomi.de</a>/,在此基础上增加了拖拽选择图片功能</p>
       </div>
     </article>
@@ -57,7 +68,7 @@
       <map name="map" id="map"></map>
     </div>
     <div class="form">
-      <p>Click into the image to set coordinate values :)</p>
+      <p style="background: red; color: #fff;padding: 10px;">点击图片设置热区顶点</p>
       <div id="clearStyleButtons">
         <div class="effect clearButton"><i class="icon icon-add"></i> Add Area</div>
         <div class="effect clearCurrentButton"><i class="icon icon-clear"></i> Clear Last</div>
